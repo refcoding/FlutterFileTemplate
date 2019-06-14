@@ -1,0 +1,37 @@
+<idea-plugin>
+  <id>com.undefine.flutter.file.template</id>
+  <name>Flutter File Template</name>
+  <version>1.0</version>
+  <vendor email="a11546581@gmail.com" url="http://www.refcoding.com">tongmn</vendor>
+
+  <description><![CDATA[
+      <p>Flutter File Template</p>
+      <p>aaaaaaaaaaaaaaaaaaaaaaaa</p>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      first
+      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+  <application-components>
+    <!-- Add your application components here -->
+    <component>
+      <implementation-class>MyPluginRegistration</implementation-class>
+    </component>
+  </application-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
